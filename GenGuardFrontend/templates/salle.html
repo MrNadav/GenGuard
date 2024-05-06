@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js" defer></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js" defer></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js" defer></script>
+        <script src="/static/js/home.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="/static/img/logo.ico">
+        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container containernav">
+              <input type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+              <ul class="menu-items">
+                  <li><a href="index.html">Home</a></li>
+  
+                  <li id="login-signup-buttons">
+                      <button class="loginbtn navbutton"><a href="login.html">Login/Signup</a></button>
+                  </li>
+                  <li id="user-info" class="user-info">
+                      <span id="user-name" class="user-name">User</span>
+                      <div class="dropdown-content">
+                        <a href="profile.html"  class="logout-button">Profile</a>
+                          <a href="dashboard.html" id="admin-button" class="logout-button">Admin</a>
+                          <a href="logs.html" id="logs-button" class="logout-button">Logs</a>
+                          <a id="logout-button" class="logout-button" onclick="logout()">Logout</a>
+  
+                      </div>
+                  </li>
+              </ul>
+              <a href="index.html"><img src="/static/img/logo.png" class="logo"></a>
+            </div>
+          </nav>
+          <section class="services">
+            <!-- This is a simplified structure; you might need to adjust it based on your actual code -->
+          </section>
+          
+          <section class="custom-sec-padding">
+            <h1 id="h1section1">Sall-E: The Future of Secure Access Control</h1>
+          </section>
+          <section class="custom-sec-padding">
+              <!-- Service 1: Image Left, Text Right -->
+              <div class="custom-col-md-12 custom-service-layout custom-sec-padding-dark">
+                <img src="/static/img/icon-512x512.png" alt="User Management System" class="custom-service-img-left"> 
+                <h2 class="custom-service-text-right">Welcome to the forefront of access control technology. Meet Sall-E, a revolutionary development in the field of secure access through doors and gates. Equipped with advanced QR scanners and facial recognition cameras, Sall-E is not just a system; it's the backbone of our comprehensive access control solution, GenGuard.</h2>
+              
+              </div>
+                
+              <!-- Service 2: Image Right, Text Left -->
+              <div class="custom-col-md-12 custom-service-layout">
+                <img src="/static/img/security.png" alt="User Management System" class="custom-service-img-right"> 
+                <h2 class="custom-service-text-right">through Sall-E and GenGuard, we're not just controlling access; we're redefining security and efficiency. Our system's dual-layer authentication process, combining QR codes and facial recognition, ensures that your facility is safeguarded against unauthorized access, providing peace of mind and a secure environment for everyone involved.</h2>
+              </div>
+          </section>
+        
+          <div id="endpage">
+            <p id="copyright">Copyright © 2023 By Nadav Dashevski & GenGuard</p>
+          </div>
+    </body>
+</html>
