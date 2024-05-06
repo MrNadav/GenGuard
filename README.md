@@ -54,5 +54,5 @@ Advanced Detection Technologies:
 ![ESP32](https://github.com/MrNadav/GenGuard/assets/72983086/9d7d0fd6-a77d-42da-9919-4497bfc9109e)
 
 3. upload and right the codes on EPS32 and 2 esp cameras.
-4. for the server side of the face match system run 'python face_system.py' in GenGuardServer\Face Match System\face_system.py
-5. run the object dedection system 'final.py' in ObjetTrackingDetection\final.py
+4. for the server side of the face match system run ```python face_system.py``` in GenGuardServer\Face Match System\face_system.py
+5. run the object dedection system ```python final.py``` in ObjetTrackingDetection\final.py
