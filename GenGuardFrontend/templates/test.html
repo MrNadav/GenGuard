@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Control Interface</title>
+</head>
+<body>
+  <h1>Servo Control</h1>
+  <button onclick="sendCommand('moveLeft')">Left</button>
+  <button onclick="sendCommand('moveRight')">Right</button>
+  <button onclick="sendCommand('moveUp')">Up</button>
+  <button onclick="sendCommand('moveDown')">Down</button>
+
+  <script>
+    function sendCommand(command) {
+      // Replace '192.168.1.10' with your ESP32's IP address
+      fetch('http://192.168.140.194/' + command)
+        .then(response => response.text())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    }
+  </script>
+</body>
+</html>

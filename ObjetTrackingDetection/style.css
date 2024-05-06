@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.camera-container {
+    position: relative;
+}
+
+#webcam, #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#canvas {
+    z-index: 10; /* Ensure canvas is above the video */
+}
