@@ -24,7 +24,7 @@ Technological Integration:
 3. ESP-CAM and ESP32 Integration
 Hardware and Firmware Capabilities:
   
-  ESP-CAM: Runs a dedicated Websocket server for continuous video streaming and features built-in LED controls for signaling system states or alerts, enhancing the interactive aspect of the security apparatus.
+  ESP-CAM: Runs a dedicated Websocket server for continuous video streaming and features built-in LED controls for signalling system states or alerts, enhancing the interactive aspect of the security apparatus.
   ESP32: Manages access control operations, integrating sensors and actuators to respond dynamically to system commands and detected threats. The inclusion of a touch sensor adds an additional layer of security by detecting unauthorized physical interactions and triggering corresponding security protocols.
   Server Communication:
   
@@ -48,10 +48,10 @@ Advanced Detection Technologies:
 # Installation and use
 
 1. download the required libraries
-2. build the electric circuit that showen in the picture
+2. build the electric circuit shown in the picture
  ![circuit](https://github.com/MrNadav/GenGuard/assets/72983086/6fc751e2-f42c-414b-895f-fc70b389df20)
-![ESP32](https://github.com/MrNadav/GenGuard/assets/72983086/9d7d0fd6-a77d-42da-9919-4497bfc9109e)
+                                        ![ESP32](https://github.com/MrNadav/GenGuard/assets/72983086/9d7d0fd6-a77d-42da-9919-4497bfc9109e)
 
-3. upload and right the codes on EPS32 and 2 esp cameras.
+3. upload and write the codes on EPS32 and 2 esp cameras.
 4. for the server side of the face match system run ```python face_system.py``` in GenGuardServer\Face Match System\face_system.py
-5. run the object dedection system ```python final.py``` in ObjetTrackingDetection\final.py
+5. run the object detection system ```python final.py``` in ObjetTrackingDetection\final.py
